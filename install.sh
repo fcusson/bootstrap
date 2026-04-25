@@ -34,5 +34,6 @@ case "$ID" in
 esac
 
 gh auth login
+gh auth setup-git
 chezmoi init "https://github.com/fcusson/dotfiles.git"
 chezmoi apply
